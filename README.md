@@ -25,18 +25,23 @@
 
 ```
 Agent/
-├── main.py                  # Streamlit 入口，页面布局与交互
-├── config.py                # 全局配置（模型、路径、参数）
-├── rag_service.py           # RAG 核心服务，检索 + 生成
-├── react_agent.py           # ReAct 推理循环（Thought→Action→Observation）
-├── vector_store.py          # FAISS 向量库封装
-├── knowledge_base.py        # 文档解析（PDF/Word/TXT）
-├── memory_manager.py        # 对话记忆管理
-├── multimodal.py            # 多模态处理（语音/图片/视频）
-├── prompt_templates.py      # Prompt 模板
-├── run_tests.py             # 测试入口
-├── requirements.txt         # Python 依赖
-└── tests/                   # 测试用例 + 评估器
+├── src/
+│   ├── main.py                  # Streamlit 入口，页面布局与交互
+│   ├── config.py                # 全局配置（模型、路径、参数）
+│   ├── rag_service.py           # RAG 核心服务，检索 + 生成
+│   ├── react_agent.py           # ReAct 推理循环（Thought→Action→Observation）
+│   ├── vector_store.py          # FAISS 向量库封装
+│   ├── knowledge_base.py        # 文档解析（PDF/Word/TXT）
+│   ├── memory_manager.py        # 对话记忆管理
+│   ├── multimodal.py            # 多模态处理（语音/图片/视频）
+│   ├── prompt_templates.py      # Prompt 模板
+│   ├── run_tests.py             # 测试入口
+│   └── tests/                   # 测试用例 + 评估器
+├── README.md                    # 项目说明
+├── PROJECT_DESIGN.md            # 设计文档
+├── PROJECT_EXPERIENCE.md        # 项目经验总结
+├── CODING_AGENT_DESIGN.md       # Agent 设计文档
+└── requirements.txt             # Python 依赖
 ```
 
 ## 🚀 快速开始
@@ -82,7 +87,7 @@ knowledge_base/
 ### 5. 启动
 
 ```bash
-streamlit run main.py
+streamlit run src/main.py
 ```
 
 浏览器自动打开 `http://localhost:8501`，即可开始使用。
