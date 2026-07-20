@@ -1,0 +1,189 @@
+[
+    {
+        "id": "TC-001",
+        "category": "工业机器人-基础知识",
+        "question": "什么是工业机器人？",
+        "expected_keywords": ["工业机器人", "关节", "编程", "自动化"],
+        "must_not_contain": [],
+        "min_length": 30,
+        "max_length": 2000,
+        "description": "工业机器人定义查询，验证基础概念检索"
+    },
+    {
+        "id": "TC-002",
+        "category": "工业机器人-基础知识",
+        "question": "ABB工业机器人的坐标系有哪几种？",
+        "expected_keywords": ["坐标系", "ABB"],
+        "must_not_contain": [],
+        "min_length": 20,
+        "max_length": 2000,
+        "description": "ABB坐标系查询，验证产品知识检索"
+    },
+    {
+        "id": "TC-003",
+        "category": "工业机器人-基础知识",
+        "question": "RobotStudio是什么？有什么功能？",
+        "expected_keywords": ["RobotStudio", "仿真", "编程", "离线"],
+        "must_not_contain": [],
+        "min_length": 20,
+        "max_length": 2000,
+        "description": "RobotStudio软件查询"
+    },
+    {
+        "id": "TC-004",
+        "category": "工业机器人-基础知识",
+        "question": "工业机器人的示教器有哪些功能？",
+        "expected_keywords": ["示教器", "操作", "模式"],
+        "must_not_contain": [],
+        "min_length": 20,
+        "max_length": 2000,
+        "description": "示教器功能查询"
+    },
+    {
+        "id": "TC-005",
+        "category": "工业机器人-基础知识",
+        "question": "什么是Smart组件？它有什么作用？",
+        "expected_keywords": ["Smart组件", "仿真", "信号", "属性"],
+        "must_not_contain": [],
+        "min_length": 20,
+        "max_length": 2000,
+        "description": "Smart组件概念查询"
+    },
+    {
+        "id": "TC-006",
+        "category": "工业机器人-基础知识",
+        "question": "工业机器人的信号通信有哪些类型？",
+        "expected_keywords": ["信号", "通信", "I/O"],
+        "must_not_contain": [],
+        "min_length": 20,
+        "max_length": 2000,
+        "description": "信号通信类型查询"
+    },
+
+    {
+        "id": "TC-007",
+        "category": "工业机器人-编程应用",
+        "question": "工业机器人激光切割编程的步骤是什么？",
+        "expected_keywords": ["激光切割", "编程", "轨迹", "工件"],
+        "must_not_contain": [],
+        "min_length": 20,
+        "max_length": 2000,
+        "description": "激光切割编程实例查询"
+    },
+    {
+        "id": "TC-008",
+        "category": "工业机器人-编程应用",
+        "question": "工业机器人搬运编程怎么实现？",
+        "expected_keywords": ["搬运", "编程", "位置", "路径"],
+        "must_not_contain": [],
+        "min_length": 20,
+        "max_length": 2000,
+        "description": "搬运编程实现查询"
+    },
+    {
+        "id": "TC-009",
+        "category": "工业机器人-编程应用",
+        "question": "ABB标准I/O设备有哪些型号？",
+        "expected_keywords": ["I/O", "DSQC", "设备"],
+        "must_not_contain": [],
+        "min_length": 20,
+        "max_length": 2000,
+        "description": "ABB I/O设备型号查询"
+    },
+    {
+        "id": "TC-010",
+        "category": "工业机器人-编程应用",
+        "question": "工业机器人的程序数据包含哪些类型？",
+        "expected_keywords": ["程序数据", "数据类型", "变量"],
+        "must_not_contain": [],
+        "min_length": 20,
+        "max_length": 2000,
+        "description": "程序数据类型查询"
+    },
+
+    {
+        "id": "TC-011",
+        "category": "NLP知识",
+        "question": "Word2Vec模型的两种架构是什么？有什么区别？",
+        "expected_keywords": ["CBOW", "Skip-Gram", "Word2Vec"],
+        "must_not_contain": [],
+        "min_length": 20,
+        "max_length": 2000,
+        "description": "NLP基础知识查询"
+    },
+    {
+        "id": "TC-012",
+        "category": "NLP知识",
+        "question": "自然语言处理中的注意力机制是什么？",
+        "expected_keywords": ["注意力", "Attention", "机制"],
+        "must_not_contain": [],
+        "min_length": 20,
+        "max_length": 2000,
+        "description": "注意力机制查询"
+    },
+
+    {
+        "id": "TC-013",
+        "category": "个人信息",
+        "question": "林铧灿是哪个学校的？什么专业？",
+        "expected_keywords": ["广东理工", "人工智能", "林铧灿"],
+        "must_not_contain": [],
+        "min_length": 20,
+        "max_length": 2000,
+        "description": "个人信息查询-学校专业"
+    },
+    {
+        "id": "TC-014",
+        "category": "个人信息",
+        "question": "林铧灿获得了哪些证书？",
+        "expected_keywords": ["CET-6", "教师资格证", "证书"],
+        "must_not_contain": [],
+        "min_length": 10,
+        "max_length": 2000,
+        "description": "个人信息查询-证书"
+    },
+    {
+        "id": "TC-015",
+        "category": "个人信息",
+        "question": "黄星航有什么特点和技能？",
+        "expected_keywords": ["黄星航", "踏实", "编程", "沟通"],
+        "must_not_contain": [],
+        "min_length": 10,
+        "max_length": 2000,
+        "description": "个人信息查询-特点技能"
+    },
+
+    {
+        "id": "TC-016",
+        "category": "兜底测试",
+        "question": "今天北京的天气怎么样？",
+        "expected_keywords": [],
+        "must_not_contain": [],
+        "min_length": 5,
+        "max_length": 2000,
+        "description": "实时天气查询，知识库无法回答，应触发兜底",
+        "expect_no_answer": true
+    },
+    {
+        "id": "TC-017",
+        "category": "兜底测试",
+        "question": "帮我规划一个去上海的旅游行程",
+        "expected_keywords": [],
+        "must_not_contain": [],
+        "min_length": 5,
+        "max_length": 2000,
+        "description": "旅游规划请求，知识库无相关内容，应触发兜底",
+        "expect_no_answer": true
+    },
+    {
+        "id": "TC-018",
+        "category": "兜底测试",
+        "question": "我的订单号DH20240001什么时候发货？",
+        "expected_keywords": [],
+        "must_not_contain": ["2024-07-15", "发货时间", "3天内"],
+        "min_length": 5,
+        "max_length": 2000,
+        "description": "用户捏造的订单号，知识库完全不存在，应触发兜底而非编造",
+        "expect_no_answer": true
+    }
+]

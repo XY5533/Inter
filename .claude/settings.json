@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//e/PythonDev/projects/agent_project/coding_agent/**)",
+      "Read(//e/PythonDev/projects/AI大模型RAG与智能体开发/coding_agent/**)",
+      "Bash(choco list *)",
+      "Bash(winget install *)"
+    ],
+    "additionalDirectories": [
+      "e:\\PythonDev\\projects\\AI大模型RAG与智能体开发\\coding_agent",
+      "e:\\PythonDev\\projects\\agent_project\\coding_agent",
+      "E:\\PythonDev\\projects\\AI大模型RAG与智能体开发\\coding_agent"
+    ]
+  }
+}

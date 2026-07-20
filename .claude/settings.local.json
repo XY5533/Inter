@@ -1,0 +1,18 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk '{print $NF}')",
+      "Bash(xargs -r taskkill //F //PID)",
+      "Bash(.venv/Scripts/python -c \"import py_compile; py_compile.compile\\('main.py', doraise=True\\); print\\('Syntax OK'\\)\")",
+      "Bash(rm -rf __pycache__ tests/__pycache__)",
+      "Bash(ls -la \"e:\\\\PythonDev\\\\projects\\\\AI大模型RAG与智能体开发\\\\\")",
+      "Read(//e/PythonDev/projects/**)",
+      "Bash(mkdir -p \"e:/PythonDev/projects/AI大模型RAG与智能体开发/coding_agent\")",
+      "Bash(e:/PythonDev/projects/AI大模型RAG与智能体开发/智能客服Agent/.venv/Scripts/python.exe -c ' *)"
+    ],
+    "additionalDirectories": [
+      "e:\\PythonDev\\projects\\AI大模型RAG与智能体开发",
+      "e:\\PythonDev\\projects\\AI大模型RAG与智能体开发\\coding_agent"
+    ]
+  }
+}
