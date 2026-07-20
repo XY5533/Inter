@@ -8,7 +8,7 @@
       "Bash(ls -la \"e:\\\\PythonDev\\\\projects\\\\AI大模型RAG与智能体开发\\\\\")",
       "Read(//e/PythonDev/projects/**)",
       "Bash(mkdir -p \"e:/PythonDev/projects/AI大模型RAG与智能体开发/coding_agent\")",
-      "Bash(e:/PythonDev/projects/AI大模型RAG与智能体开发/智能客服Agent/.venv/Scripts/python.exe -c ' *)"
+      "Bash(e:/PythonDev/projects/AI大模型RAG与智能体开发/Agent/.venv/Scripts/python.exe -c ' *)"
     ],
     "additionalDirectories": [
       "e:\\PythonDev\\projects\\AI大模型RAG与智能体开发",
