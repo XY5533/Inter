@@ -40,7 +40,6 @@ Agent/
 ├── README.md                    # 项目说明
 ├── PROJECT_DESIGN.md            # 设计文档
 ├── PROJECT_EXPERIENCE.md        # 项目经验总结
-├── CODING_AGENT_DESIGN.md       # Agent 设计文档
 └── requirements.txt             # Python 依赖
 ```
 
