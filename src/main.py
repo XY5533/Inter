@@ -13,7 +13,7 @@ import streamlit as st
 # ---- 页面全局配置 ----
 st.set_page_config(
     page_title="IntelliRAG 知识库问答平台",
-    page_icon="🤖",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="expanded",
 )
@@ -42,7 +42,7 @@ with st.sidebar:
     # 品牌标识
     st.markdown("""
     <div style="text-align:center; padding:0.5rem 0;">
-        <h2 style="margin:0;font-weight:700;">🤖 IntelliRAG</h2>
+        <h2 style="margin:0;font-weight:700;">IntelliRAG</h2>
         <p style="color:#888;font-size:0.82rem;margin:0;">知识库问答平台</p>
     </div>
     """, unsafe_allow_html=True)
